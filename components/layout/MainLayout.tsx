@@ -11,7 +11,9 @@ const MainLayout = ({ children }: PropMainLayout) => {
       <SideBar />
       <div className="flex-1">
         <Header />
-        <div className="pt-[70px] bg-white">{children}</div>
+        <div className=" bg-secondary">
+          <div className="container">{children}</div>
+        </div>
       </div>
     </div>
   );
