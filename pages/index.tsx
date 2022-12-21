@@ -1,3 +1,7 @@
 export default function Home() {
-  return <div>Hello</div>;
+  return (
+    <div className="style-scroll">
+      <div>hello</div>
+    </div>
+  );
 }
